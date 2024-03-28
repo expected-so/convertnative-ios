@@ -1,0 +1,33 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ConvertNativeSdk
+@_exported import ConvertNativeSdk
+import Foundation
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class ConvertNative {
+  public static let shared: ConvertNativeSdk.ConvertNative
+  public var endpoint: Foundation.URL
+  public var workspaceId: Swift.String?
+  public var publicKey: Swift.String?
+  public var installId: Swift.String? {
+    get
+  }
+  public var sessionId: Swift.String?
+  @objc deinit
+  public func configure(workspaceId: Swift.String, publicKey: Swift.String, endpoint: Swift.String? = nil, start: Swift.Bool = true)
+  public func start()
+  public func setInstallId(_ installId: Swift.String?) throws
+  #if compiler(>=5.3) && $AsyncAwait
+  public func sendRequest(path: Swift.String, method: Swift.String, body: (any Swift.Encodable)?) async throws -> Foundation.Data
+  #endif
+  public func appDir() -> Foundation.URL
+}
+public enum ConvertNativeError : Swift.Error {
+  case badRequest(data: Swift.String?)
+  case unexpected(code: Swift.Int, data: Swift.String?)
+}

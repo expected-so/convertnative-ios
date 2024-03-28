@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CNEndpointURL</key>
+	<string>http://192.168.1.7:3000</string>
+	<key>CNWorkspaceID</key>
+	<string>2eaef130-19b6-4fa1-9fb9-c121aafc19b9</string>
+	<key>CNPublicKey</key>
+	<string>1b60011abe0f45838a7bad489f2a3dc6</string>
+	<key>UIBackgroundModes</key>
+	<array/>
+</dict>
+</plist>

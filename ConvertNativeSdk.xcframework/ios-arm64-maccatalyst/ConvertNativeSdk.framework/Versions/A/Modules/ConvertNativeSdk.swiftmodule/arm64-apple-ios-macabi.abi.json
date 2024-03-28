@@ -1,0 +1,989 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvertNativeSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ConvertNativeSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "ConvertNativeSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvertNativeSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ConvertNativeSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConvertNative",
+        "printedName": "ConvertNative",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConvertNative",
+                "printedName": "ConvertNativeSdk.ConvertNative",
+                "usr": "s:16ConvertNativeSdk0aB0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16ConvertNativeSdk0aB0C6sharedACvpZ",
+            "mangledName": "$s16ConvertNativeSdk0aB0C6sharedACvpZ",
+            "moduleName": "ConvertNativeSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConvertNative",
+                    "printedName": "ConvertNativeSdk.ConvertNative",
+                    "usr": "s:16ConvertNativeSdk0aB0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16ConvertNativeSdk0aB0C6sharedACvgZ",
+                "mangledName": "$s16ConvertNativeSdk0aB0C6sharedACvgZ",
+                "moduleName": "ConvertNativeSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "endpoint",
+            "printedName": "endpoint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16ConvertNativeSdk0aB0C8endpoint10Foundation3URLVvp",
+            "mangledName": "$s16ConvertNativeSdk0aB0C8endpoint10Foundation3URLVvp",
+            "moduleName": "ConvertNativeSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16ConvertNativeSdk0aB0C8endpoint10Foundation3URLVvg",
+                "mangledName": "$s16ConvertNativeSdk0aB0C8endpoint10Foundation3URLVvg",
+                "moduleName": "ConvertNativeSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16ConvertNativeSdk0aB0C8endpoint10Foundation3URLVvs",
+                "mangledName": "$s16ConvertNativeSdk0aB0C8endpoint10Foundation3URLVvs",
+                "moduleName": "ConvertNativeSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16ConvertNativeSdk0aB0C8endpoint10Foundation3URLVvM",
+                "mangledName": "$s16ConvertNativeSdk0aB0C8endpoint10Foundation3URLVvM",
+                "moduleName": "ConvertNativeSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "workspaceId",
+            "printedName": "workspaceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16ConvertNativeSdk0aB0C11workspaceIdSSSgvp",
+            "mangledName": "$s16ConvertNativeSdk0aB0C11workspaceIdSSSgvp",
+            "moduleName": "ConvertNativeSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16ConvertNativeSdk0aB0C11workspaceIdSSSgvg",
+                "mangledName": "$s16ConvertNativeSdk0aB0C11workspaceIdSSSgvg",
+                "moduleName": "ConvertNativeSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16ConvertNativeSdk0aB0C11workspaceIdSSSgvs",
+                "mangledName": "$s16ConvertNativeSdk0aB0C11workspaceIdSSSgvs",
+                "moduleName": "ConvertNativeSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16ConvertNativeSdk0aB0C11workspaceIdSSSgvM",
+                "mangledName": "$s16ConvertNativeSdk0aB0C11workspaceIdSSSgvM",
+                "moduleName": "ConvertNativeSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "publicKey",
+            "printedName": "publicKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16ConvertNativeSdk0aB0C9publicKeySSSgvp",
+            "mangledName": "$s16ConvertNativeSdk0aB0C9publicKeySSSgvp",
+            "moduleName": "ConvertNativeSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16ConvertNativeSdk0aB0C9publicKeySSSgvg",
+                "mangledName": "$s16ConvertNativeSdk0aB0C9publicKeySSSgvg",
+                "moduleName": "ConvertNativeSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16ConvertNativeSdk0aB0C9publicKeySSSgvs",
+                "mangledName": "$s16ConvertNativeSdk0aB0C9publicKeySSSgvs",
+                "moduleName": "ConvertNativeSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16ConvertNativeSdk0aB0C9publicKeySSSgvM",
+                "mangledName": "$s16ConvertNativeSdk0aB0C9publicKeySSSgvM",
+                "moduleName": "ConvertNativeSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "installId",
+            "printedName": "installId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16ConvertNativeSdk0aB0C9installIdSSSgvp",
+            "mangledName": "$s16ConvertNativeSdk0aB0C9installIdSSSgvp",
+            "moduleName": "ConvertNativeSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16ConvertNativeSdk0aB0C9installIdSSSgvg",
+                "mangledName": "$s16ConvertNativeSdk0aB0C9installIdSSSgvg",
+                "moduleName": "ConvertNativeSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sessionId",
+            "printedName": "sessionId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16ConvertNativeSdk0aB0C9sessionIdSSSgvp",
+            "mangledName": "$s16ConvertNativeSdk0aB0C9sessionIdSSSgvp",
+            "moduleName": "ConvertNativeSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16ConvertNativeSdk0aB0C9sessionIdSSSgvg",
+                "mangledName": "$s16ConvertNativeSdk0aB0C9sessionIdSSSgvg",
+                "moduleName": "ConvertNativeSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16ConvertNativeSdk0aB0C9sessionIdSSSgvs",
+                "mangledName": "$s16ConvertNativeSdk0aB0C9sessionIdSSSgvs",
+                "moduleName": "ConvertNativeSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16ConvertNativeSdk0aB0C9sessionIdSSSgvM",
+                "mangledName": "$s16ConvertNativeSdk0aB0C9sessionIdSSSgvM",
+                "moduleName": "ConvertNativeSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(workspaceId:publicKey:endpoint:start:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16ConvertNativeSdk0aB0C9configure11workspaceId9publicKey8endpoint5startySS_S2SSgSbtF",
+            "mangledName": "$s16ConvertNativeSdk0aB0C9configure11workspaceId9publicKey8endpoint5startySS_S2SSgSbtF",
+            "moduleName": "ConvertNativeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16ConvertNativeSdk0aB0C5startyyF",
+            "mangledName": "$s16ConvertNativeSdk0aB0C5startyyF",
+            "moduleName": "ConvertNativeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setInstallId",
+            "printedName": "setInstallId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16ConvertNativeSdk0aB0C12setInstallIdyySSSgKF",
+            "mangledName": "$s16ConvertNativeSdk0aB0C12setInstallIdyySSSgKF",
+            "moduleName": "ConvertNativeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendRequest",
+            "printedName": "sendRequest(path:method:body:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Encodable)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encodable",
+                    "printedName": "any Swift.Encodable",
+                    "usr": "s:SE"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16ConvertNativeSdk0aB0C11sendRequest4path6method4body10Foundation4DataVSS_SSSE_pSgtYaKF",
+            "mangledName": "$s16ConvertNativeSdk0aB0C11sendRequest4path6method4body10Foundation4DataVSS_SSSE_pSgtYaKF",
+            "moduleName": "ConvertNativeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "appDir",
+            "printedName": "appDir()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16ConvertNativeSdk0aB0C6appDir10Foundation3URLVyF",
+            "mangledName": "$s16ConvertNativeSdk0aB0C6appDir10Foundation3URLVyF",
+            "moduleName": "ConvertNativeSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16ConvertNativeSdk0aB0C",
+        "mangledName": "$s16ConvertNativeSdk0aB0C",
+        "moduleName": "ConvertNativeSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConvertNativeError",
+        "printedName": "ConvertNativeError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "badRequest",
+            "printedName": "badRequest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ConvertNativeSdk.ConvertNativeError.Type) -> (Swift.String?) -> ConvertNativeSdk.ConvertNativeError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?) -> ConvertNativeSdk.ConvertNativeError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConvertNativeError",
+                        "printedName": "ConvertNativeSdk.ConvertNativeError",
+                        "usr": "s:16ConvertNativeSdk0aB5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(data: Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ConvertNativeSdk.ConvertNativeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConvertNativeError",
+                        "printedName": "ConvertNativeSdk.ConvertNativeError",
+                        "usr": "s:16ConvertNativeSdk0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16ConvertNativeSdk0aB5ErrorO10badRequestyACSSSg_tcACmF",
+            "mangledName": "$s16ConvertNativeSdk0aB5ErrorO10badRequestyACSSSg_tcACmF",
+            "moduleName": "ConvertNativeSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "unexpected",
+            "printedName": "unexpected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ConvertNativeSdk.ConvertNativeError.Type) -> (Swift.Int, Swift.String?) -> ConvertNativeSdk.ConvertNativeError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Swift.String?) -> ConvertNativeSdk.ConvertNativeError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConvertNativeError",
+                        "printedName": "ConvertNativeSdk.ConvertNativeError",
+                        "usr": "s:16ConvertNativeSdk0aB5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(code: Swift.Int, data: Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ConvertNativeSdk.ConvertNativeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConvertNativeError",
+                        "printedName": "ConvertNativeSdk.ConvertNativeError",
+                        "usr": "s:16ConvertNativeSdk0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16ConvertNativeSdk0aB5ErrorO10unexpectedyACSi_SSSgtcACmF",
+            "mangledName": "$s16ConvertNativeSdk0aB5ErrorO10unexpectedyACSi_SSSgtcACmF",
+            "moduleName": "ConvertNativeSdk"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16ConvertNativeSdk0aB5ErrorO",
+        "mangledName": "$s16ConvertNativeSdk0aB5ErrorO",
+        "moduleName": "ConvertNativeSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvertNativeSdk"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/remi\/Documents\/convertnative\/convertnative-ios-source\/Sources\/CNJobDefinitions.swift",
+      "kind": "StringLiteral",
+      "offset": 210,
+      "length": 15,
+      "value": "\"start-session\""
+    },
+    {
+      "filePath": "\/Users\/remi\/Documents\/convertnative\/convertnative-ios-source\/Sources\/CNJobDefinitions.swift",
+      "kind": "StringLiteral",
+      "offset": 2012,
+      "length": 14,
+      "value": "\"stop-session\""
+    },
+    {
+      "filePath": "\/Users\/remi\/Documents\/convertnative\/convertnative-ios-source\/Sources\/ConvertNative.swift",
+      "kind": "StringLiteral",
+      "offset": 161,
+      "length": 23,
+      "value": "\"com.convertnative.sdk\""
+    },
+    {
+      "filePath": "\/Users\/remi\/Documents\/convertnative\/convertnative-ios-source\/Sources\/ConvertNative.swift",
+      "kind": "BooleanLiteral",
+      "offset": 230,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/remi\/Documents\/convertnative\/convertnative-ios-source\/Sources\/ConvertNative.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1441,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/remi\/Documents\/convertnative\/convertnative-ios-source\/Sources\/CNHttpDefinitions.swift",
+      "kind": "StringLiteral",
+      "offset": 115,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/remi\/Documents\/convertnative\/convertnative-ios-source\/Sources\/CNHttpDefinitions.swift",
+      "kind": "StringLiteral",
+      "offset": 232,
+      "length": 7,
+      "value": "\"Apple\""
+    }
+  ]
+}

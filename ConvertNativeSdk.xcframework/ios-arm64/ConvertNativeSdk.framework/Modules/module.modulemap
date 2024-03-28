@@ -1,0 +1,6 @@
+framework module ConvertNativeSdk {
+  umbrella header "ConvertNativeSdk.h"
+  export *
+
+  module * { export * }
+}
